@@ -53,12 +53,25 @@
 
 ## 📡 Terminal Transmission
 ```mermaid
+%%{init: { 'theme': 'dark', 'themeVariables': { 'fontFamily': 'Courier New, monospace', 'lineColor': '#FF007F' }}}%%
 graph TD
-    A[Suryansh Terminal] -->|Step 1: Core Foundation| B(General Cyber & Linux)
-    B -->|Step 2: Control Protocol| C(Network Architecture)
-    C -->|Step 3: Attack Simulation| D(Python Exploit & MySQL Vulnerabilities)
-    D -->|Step 4: Live Target Training| E[Future CTF Conquests]
-        style A fill:#00FFCC,stroke:#000,stroke-width:2px;
-    style E fill:#FF007F,stroke:#FFF,stroke-width:2px;
+    A([📟 SURYANSH TERMINAL]) -->|INIT_SYS| B[/0x01: CORE FOUNDATION/]
+    B -->|NET_DATA| C[\0x02: NETWORK PROTOCOLS\]
+    C -->|MAL_SIM| D{0x03: EXPLOIT LOGIC}
+    D -->|FLAG_HUNT| E[[🏆 TARGET CONQUESTS]]
+
+    %% Advanced Cyberpunk Style Engine %%
+    style A fill:#0A0F1D,stroke:#00FFCC,stroke-width:3px,color:#00FFCC;
+    style B fill:#161B22,stroke:#00FFCC,stroke-width:1px,color:#FFF;
+    style C fill:#161B22,stroke:#00FFCC,stroke-width:1px,color:#FFF;
+    style D fill:#161B22,stroke:#FF007F,stroke-width:1px,color:#FFF;
+    style E fill:#0A0F1D,stroke:#FF007F,stroke-width:3px,color:#FF007F;
+
+    %% Link Configuration %%
+    linkStyle 0 stroke:#00FFCC,stroke-width:2px;
+    linkStyle 1 stroke:#00FFCC,stroke-width:2px;
+    linkStyle 2 stroke:#FF007F,stroke-width:2px;
+    linkStyle 3 stroke:#FF007F,stroke-width:2px;
+```
 
 ```
