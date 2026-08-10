@@ -58,6 +58,7 @@ graph TD
     B -->|Step 2: Control Protocol| C(Network Architecture)
     C -->|Step 3: Attack Simulation| D(Python Exploit & MySQL Vulnerabilities)
     D -->|Step 4: Live Target Training| E[Future CTF Conquests]
-    style A fill:#1A1A2E,stroke:#00FFCC,stroke-width:2px;
-    style E fill:#1A1A2E,stroke:#FF007F,stroke-width:2px;
+        style A fill:#00FFCC,stroke:#000,stroke-width:2px;
+    style E fill:#FF007F,stroke:#FFF,stroke-width:2px;
+
 ```
