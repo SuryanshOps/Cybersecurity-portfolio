@@ -51,27 +51,83 @@
 
 ---
 
-## 📡 Terminal Transmission
-```mermaid
-%%{init: { 'theme': 'dark', 'themeVariables': { 'fontFamily': 'Courier New, monospace', 'lineColor': '#FF007F' }}}%%
-graph TD
-    A([📟 SURYANSH TERMINAL]) -->|INIT_SYS| B[/0x01: CORE FOUNDATION/]
-    B -->|NET_DATA| C[\0x02: NETWORK PROTOCOLS\]
-    C -->|MAL_SIM| D{0x03: EXPLOIT LOGIC}
-    D -->|FLAG_HUNT| E[[🏆 TARGET CONQUESTS]]
 
-    %% Advanced Cyberpunk Style Engine %%
-    style A fill:#0A0F1D,stroke:#00FFCC,stroke-width:3px,color:#00FFCC;
-    style B fill:#161B22,stroke:#00FFCC,stroke-width:1px,color:#FFF;
-    style C fill:#161B22,stroke:#00FFCC,stroke-width:1px,color:#FFF;
-    style D fill:#161B22,stroke:#FF007F,stroke-width:1px,color:#FFF;
-    style E fill:#0A0F1D,stroke:#FF007F,stroke-width:3px,color:#FF007F;
 
-    %% Link Configuration %%
-    linkStyle 0 stroke:#00FFCC,stroke-width:2px;
-    linkStyle 1 stroke:#00FFCC,stroke-width:2px;
-    linkStyle 2 stroke:#FF007F,stroke-width:2px;
-    linkStyle 3 stroke:#FF007F,stroke-width:2px;
 ```
+## 📡 Terminal Transmission // DATA_STREAM_0XFA8
+```mermaid
+%%{init: { 
+  'theme': 'dark', 
+  'themeVariables': { 
+    'fontFamily': 'Fira Code, SFMono-Regular, Consolas, Courier New, monospace',
+    'darkMode': true,
+    'background': '#070a13',
+    'mainBkg': '#0d1117',
+    'nodeBorder': '#00FFCC',
+    'clusterBkg': '#0d1117',
+    'clusterBorder': '#1f242c',
+    'lineColor': '#FF007F'
+  }
+}}%%
 
+flowchart TB
+    %% --- TOP LAYER: SOURCE IGNITION ---
+    subgraph INFRASTRUCTURE [⚡ OPERATIONAL NODE: SURYANSH_CORE]
+        A[["📟 [SuryanshOps::Console]"]] 
+        A1["📡 INBOUND_TRAFFIC: ACTIVE_MONITOR"]
+        A --> A1
+    end
+
+    %% --- MIDDLE LAYER: DEPLOYMENT PIPELINES ---
+    subgraph DEPLOYMENT [⚔️ INTEL_GATHERING & SYSTEM_RECON]
+        B1{{"🌐 0x01 // Cyber Security Core"}}
+        B2{{"🗺️ 0x02 // Network Architecture"}}
+        B3{{"🐧 0x03 // Linux System Files"}}
+    end
+
+    subgraph OFFENSIVE [💥 ADVANCED ATTACK WEAPONRY]
+        C1[\"🐍 0x04 // Custom Python Automation\"/]
+        C2[\"🗄️ 0x05 // MySQL Injection Frameworks\"/]
+    end
+
+    %% --- BOTTOM LAYER: CONQUEST TARGETS ---
+    subgraph DESTINATION [🏆 APEX OPERATIONS TARGET]
+        E(((🏁 LIVE CTF CONQUESTS & RED TEAM BREACH)))
+    end
+
+    %% --- STRUCTURAL LINKS & ROUTING FLOW ---
+    A1 ==>|STAGE_1_INIT| B1
+    A1 ==>|STAGE_1_INIT| B3
+    B1 -->|ROUTE_TCP_INTEL| B2
+    B3 -->|LOCAL_RECON_COMPLETE| B2
+    
+    B2 ===>|ACCESS_GRANTED| C1
+    B2 ===>|ACCESS_GRANTED| C2
+    
+    C1 -->|EXPLOIT_DEPLOYED| E
+    C2 -->|DATABASE_COMPROMISED| E
+
+    %% --- ADVANCED CYBERPUNK COLOR ENGINE ---
+    style A fill:#00FFCC,stroke:#00FFCC,stroke-width:4px,color:#000,font-weight:bold;
+    style A1 fill:#070a13,stroke:#00FFCC,stroke-width:1px,color:#00FFCC;
+    
+    style B1 fill:#0d1117,stroke:#00FFCC,stroke-width:2px,color:#FFF;
+    style B2 fill:#0d1117,stroke:#00FFCC,stroke-width:2px,color:#FFF;
+    style B3 fill:#0d1117,stroke:#00FFCC,stroke-width:2px,color:#FFF;
+    
+    style C1 fill:#0d1117,stroke:#FF007F,stroke-width:2px,color:#FFF;
+    style C2 fill:#0d1117,stroke:#FF007F,stroke-width:2px,color:#FFF;
+    
+    style E fill:#070a13,stroke:#FF007F,stroke-width:5px,color:#FF007F,font-weight:bold;
+
+    %% --- LINK OVERLAYS & GLOW TUNING ---
+    linkStyle 0 stroke:#00FFCC,stroke-width:1px;
+    linkStyle 1 stroke:#00FFCC,stroke-width:3px;
+    linkStyle 2 stroke:#00FFCC,stroke-width:3px;
+    linkStyle 3 stroke:#00FFCC,stroke-width:1px;
+    linkStyle 4 stroke:#00FFCC,stroke-width:1px;
+    linkStyle 5 stroke:#FF007F,stroke-width:3px;
+    linkStyle 6 stroke:#FF007F,stroke-width:3px;
+    linkStyle 7 stroke:#FF007F,stroke-width:2px;
+    linkStyle 8 stroke:#FF007F,stroke-width:2px;
 ```
