@@ -24,7 +24,7 @@ Structural overview of all modules for direct navigation and quick access:
 
 ---
 
-## 🎯 Strategic Educational Objectives (US Graduate Track)
+## 🎯 Strategic Educational Objectives
 This workspace acts as a comprehensive theoretical ledger proving knowledge and understanding in the following fields:
 
 * **Securing Identity Pipelines:** Theoretical frameworks for robust MFA configurations, access policies, and enterprise token auditing.
